@@ -1,0 +1,96 @@
+h1,nav,p{
+    display:inline-block;
+}
+header{
+    background-image:url("../images/headerbackground.jpg");
+    background-size:cover;
+}
+header h1{
+    color:gainsboro;
+}
+header nav{
+    float:right;
+    background-color: white;
+    margin-top: 10px;
+}
+header nav span{
+    color: #333 ;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    font-family:"Reggae";
+}
+header nav span a{
+    color:#333;
+}
+.mainheader{
+    color:gainsboro;
+}
+.mainheader p{
+    font-weight:900;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+}
+.rightmenu{
+    display:flex;
+    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+    line-height: 25px;
+    
+    
+}
+.item{
+    font-size:20px;
+    color:cadetblue;
+}
+aside{
+    margin-left:20px;
+    
+}
+.content{
+    width:915px;
+}
+.content p{
+    font-family: "Rubik", sans-serif;
+    font: icon;
+    line-height: 25px;
+}
+.feature{
+    font-size: 20px;
+    line-height: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:1px solid gray;
+    width:20%;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+.companyfeatures h5{
+      font-family:cursive;
+      font-size:20px;
+}
+.companyfeatures{
+    display:flex;
+    flex-direction:row;
+   justify-content: space-around;
+   text-align: center;
+    
+}
+.link_button {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background:cadetblue;
+    color: #FFF;
+    padding: 8px 12px;
+    text-decoration: none;
+}
