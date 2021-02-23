@@ -4,9 +4,13 @@ h1,nav,p{
 header{
     background-image:url("../images/headerbackground.jpg");
     background-size:cover;
+    height:900px;
+    
 }
 header h1{
     color:gainsboro;
+    font-size:60px;
+    padding: 10px 60px;
 }
 header nav{
     float:right;
@@ -25,6 +29,7 @@ header nav span a{
 }
 .mainheader{
     color:gainsboro;
+    padding: 10px 60px;
 }
 .mainheader p{
     font-weight:900;
